@@ -134,3 +134,50 @@ body {
     margin-right: 20px;
     margin-top: 20px;
 }
+
+.flexible-container h2 {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.half-width img {
+    width: 100%;
+    margin-top: 250px;
+}
+
+.cont-button {
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.flexible-container-2 {
+    display: flex;
+}
+
+.half-width-2 {
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.half-width-2 img {
+    width: 100%;
+    margin-top: 250px;
+}
+
+.survive-us .flexible-container h2 {}
