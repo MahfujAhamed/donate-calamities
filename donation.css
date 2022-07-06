@@ -1,5 +1,67 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0%;
+}
+
 .header {
-    background-image: url(images/donation1.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
+    background-image: url(images/Rectangle\ 237.png);
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 15px 15px;
+    color: white;
+    text-align: center;
+}
+
+.donation {
+    margin-top: 100px;
+}
+
+.first-part {
+    text-align: center;
+
+}
+
+.first-part h1 {
+    font-size: 50px;
+
+}
+
+.amount {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 250px;
+    text-align: center;
+}
+
+.amount-tk {
+    background-color: rgba(255, 160, 176, 0.171);
+    font-size: 20px;
+    padding: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.variant-tk {
+    border: 2px rgb(255, 0, 43) solid;
+    color: rgb(255, 0, 43);
+    background-color: rgb(196, 95, 112, 0.459);
+    border-radius: 5px;
+    text-align: center;
 }
