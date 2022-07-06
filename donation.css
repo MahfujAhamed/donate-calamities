@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-    background-image: url(images/donation7.jpg);
+    background-image: url(images/donation13.jpg);
     background-size: cover;
     padding-top: 250px;
     padding-bottom: 240px;
@@ -85,5 +85,15 @@ body {
     padding: 30px 30px;
     border: none;
     border-bottom: 2px solid grey;
+    text-align: center;
+}
+
+.donation-plan h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.donation-plan p {
     text-align: center;
 }
